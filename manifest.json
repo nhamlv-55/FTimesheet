@@ -10,13 +10,6 @@
     "icons": { "16": "16-square.png",
                "48": "48-square.png",
               "128": "128-square.png" },
-    "content_scripts": [{
-      "js": ["mark.min.js"],
-      "matches": [
-          "http://*/*",
-          "https://*/*"
-      ]
-    }],
     // "background": {
     //   "scripts": ["background.js"]
     // },
